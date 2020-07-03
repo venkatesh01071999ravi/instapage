@@ -6,21 +6,14 @@
        left:950px;
        top:120px;
        
-
 }
 
 @media only screen and (max-width:1047px){
-
 
          .side{
 
             display: none;
 
-
          }
-
-
-
-
-
+      
 }

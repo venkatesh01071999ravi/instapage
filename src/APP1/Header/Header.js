@@ -19,10 +19,6 @@ function Header(){
             <Nav />
             <Photo />
         </div>
-
-
-
-
       )
 
 }

@@ -3,7 +3,8 @@ import "./image.css"
 
 function Image(props){
        return(
-            <div className="outer">
+            
+          <div className="outer">
                <a href="#" className="ref"><div className="inner">
 
                     <img src={props.img} className="story-image"></img>
@@ -12,18 +13,10 @@ function Image(props){
                     </div>
 
                 </div></a>
-                
           
+          </div>
 
-
-
-            </div>
-
-
-
-       )
-
-
+     )
 
 }
 

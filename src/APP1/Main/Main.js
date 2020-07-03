@@ -15,15 +15,10 @@ function Main(){
                     <Posts />
                     <Posts />
                     <Posts />
-                    
-
+            
             </div>
 
-
-
-       )
-
-
+        )
 
 
 }

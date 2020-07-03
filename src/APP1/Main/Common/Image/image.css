@@ -31,21 +31,22 @@
 
 .ref{
 
-  text-decoration: none;
+    text-decoration: none;
   
-
 }
 
 .story-image{
-width:50px;
-height:52px;
-margin-left:1px;
-border-radius:50%;
+
+    width:50px;
+    height:52px;
+    margin-left:1px;
+    border-radius:50%;
+
 }
 
 .story-name{
 
-font-size: 13px;
+    font-size: 13px;
 
 }
 

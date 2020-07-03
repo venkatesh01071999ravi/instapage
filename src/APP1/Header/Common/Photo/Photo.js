@@ -7,16 +7,12 @@ function Photo(){
 
       return(
         
-         <div className="image">
+        <div className="image">
 
+            <a href="#"><img  src={img}  className="main-image-header" /></a>
 
-           <a href="#"><img  src={img}  className="main-image-header" /></a>
-
-
-
-         </div>
-
-
+        </div>
+      
       )
 
 }

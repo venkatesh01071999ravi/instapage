@@ -12,11 +12,8 @@ function Input(){
 
         </div>
 
-
-
-
       )
 
-}
+  }
 
 export default Input

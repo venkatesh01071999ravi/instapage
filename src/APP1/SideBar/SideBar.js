@@ -17,8 +17,8 @@ function SideBar(){
                
             </div>
 
-    )
+        )
 
-}
+    }
 
 export default SideBar

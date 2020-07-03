@@ -10,7 +10,6 @@ function Message(){
 
         </div>
 
-
       )
 
 }

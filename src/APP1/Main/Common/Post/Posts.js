@@ -16,21 +16,10 @@ function Posts(){
                      <PostImage />
                      <LikeSection />
                      <CommentSection />
-
-
-
-
+              
               </div>
-
-
-
-        )
-
-
-
-
-
-
+       
+       )
 
 }
 

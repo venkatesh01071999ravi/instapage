@@ -7,13 +7,8 @@ function PostImage(){
        return(
 
                <img className="post-image" src={image}></img>  
-
-
-       )
-
-
-
-
+        
+        )
 
 }
 

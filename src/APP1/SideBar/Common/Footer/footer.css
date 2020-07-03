@@ -1,35 +1,33 @@
-.main-stuffs{
+.main-stuffs {
 
-
-clear: both;
-height:5%;
-
-
-
+    clear: both;
+    height:5%;
 
 }
 
 .main-stuffs a{
 
-text-decoration: none;
-color: gray;
-margin-left: 4px;
+    text-decoration: none;
+    color: gray;
+    margin-left: 4px;
+
 }
 .mainstuffs a span{
 
-font-size: 13px;
+    font-size: 13px;
 
 
 }
 
 .copyrights{
 
-margin-top: 15px;
-margin-left: 7px;
-color: gray;
-font-size: 12px;
+    margin-top: 15px;
+    margin-left: 7px;
+    color: gray;
+    font-size: 12px;
 
 }
+
 .copy{
 
     margin-left: 8px;

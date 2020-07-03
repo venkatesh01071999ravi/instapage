@@ -6,7 +6,7 @@ function Suggestions(){
 
       return(
 
-          <div className="Suggest">
+        <div className="Suggest">
 
                       
                <span className="suggest_name">Suggestions For You</span>
@@ -71,13 +71,9 @@ function Suggestions(){
                 <br />
 
               
-          </div>
+        </div>
   
-
-
-      )
-
-
+    )
 
 
 }

@@ -19,24 +19,9 @@ function Header(){
             <span className="name1">Troll English Series</span>
             <span className="tripledot">...</span>
 
-
-
-           
-
-
-
          </div>
 
-
-
-
-
       )
-
-
-
-
-
 
 }
 

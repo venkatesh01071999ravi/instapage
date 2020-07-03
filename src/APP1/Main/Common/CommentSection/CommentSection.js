@@ -8,22 +8,22 @@ function CommentSection(){
 
      return(
 
-            <div className="comment">
+          <div className="comment">
 
                 
-                <a href="#"><div className="inner2">
+               <a href="#"><div className="inner2">
 
                         <img src={image} className="comment-section-image"></img>
                             
-                </div></a>
-                <div className="liked">
+               </div></a>
+               <div className="liked">
 
                    <span>Liked by</span><a href="#" className="liked-name">Roshan</a><span>and</span><a href="#" className="liked-name">48,200 others</a>
 
 
-                </div>
+               </div>
 
-                <div className="commentsec">
+               <div className="commentsec">
 
                       <a href="#" className="comment-sec-name">
                         
@@ -32,11 +32,9 @@ function CommentSection(){
                      </a>
                      <span className="caption">Let this july be awesome....</span>
 
+               </div>
 
-
-                </div>
-
-                <div className="commentbox">
+               <div className="commentbox">
                    
                     <a href="#" className="view">View all 378 comments</a>
                     <div className="actualcomments">
@@ -60,21 +58,13 @@ function CommentSection(){
                             </form>   
                         </div>
 
-                </div>
+                    </div>
             
-                
-
-      
-
-            </div>
+               </div>
 
           </div>
 
-
      )
-
-
-
 
 }
 

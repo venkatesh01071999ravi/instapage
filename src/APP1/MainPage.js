@@ -14,13 +14,9 @@ function MainPage(){
             <SideBar />
             <Main />
            
-
         </div>
 
-
-
-
-      )
+    )
 
 }
 

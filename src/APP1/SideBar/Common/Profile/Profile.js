@@ -4,7 +4,7 @@ import image from "../../../Main/Common/img1.JPG"
 
 function Profile(){
 
-          return(
+        return(
 
             <div className="profile">
 
@@ -19,11 +19,7 @@ function Profile(){
                                 
             </div>
 
-
-          )
-
-
-
+      )
 
 
 }

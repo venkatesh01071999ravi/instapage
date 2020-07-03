@@ -7,11 +7,9 @@ function Logo(){
       <div className="logo">  
         <span className="name">Instagram</span>
       </div>   
- )
-
-
-
-}
+    )
+ 
+ }
 
 
 export default Logo
