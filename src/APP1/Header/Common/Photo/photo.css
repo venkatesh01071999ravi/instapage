@@ -1,0 +1,21 @@
+.image{
+
+ margin-left: 20px;
+ margin-top: 18px;
+ float: left;   
+ padding-top: 22px;
+ padding-left:0;
+ border: 1px whitesmoke solid;
+ width: 30px;
+ height:8px;
+ border-radius: 50%;
+ 
+}
+.main-image-header{
+
+    width:15px ;
+    height:25px ;
+    position:relative;
+    bottom:19px;
+    left:7px;
+}

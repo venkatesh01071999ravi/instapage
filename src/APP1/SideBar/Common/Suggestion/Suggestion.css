@@ -1,0 +1,79 @@
+.Suggest{
+
+     
+    margin-top: 7px;
+    height: 30%;
+     
+
+
+
+
+}
+.suggest_name{
+
+       
+       color: gray;
+       font-size: 17px;
+
+}
+
+.see-all{
+
+text-decoration: none;
+color: black;
+font-size: 14px;
+margin-left:110px;
+
+}
+.names{
+
+    text-decoration: none;
+
+}
+.suggestion-user{
+
+
+color:black;
+margin-left: 15px;
+position: relative;
+bottom:21px;
+font-size: 15px;
+
+}
+
+
+
+
+.suggestion-followed-by{
+
+    font-size: 13px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 18px;
+    color: gray;
+}
+
+.suggestion-image{
+
+width:35px;
+height:35px;
+border-radius:50%
+}
+.first-suggestion{
+    float: left;
+}
+.following-suggestion{
+
+clear: both;
+float: left;
+
+}
+.suggestion-follow{
+
+float:left;
+margin-left:15px;
+margin-top:10px;
+font-size:14px;
+text-decoration:none;
+color:blue;
+}

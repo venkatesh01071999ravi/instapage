@@ -1,0 +1,89 @@
+.Story{
+
+    float: left;
+    width:720;
+    height: 120px;
+    background-color: white ;
+    border: 1px gray solid;
+    border-radius: 4px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    overflow-y: hidden;
+   
+}
+.button-inner{
+font-weight:normal;
+font-size:20px;
+height:30px
+}
+@media only screen  and (max-width:904px){
+
+      .Story{
+
+           margin-left: 80px;
+           
+
+      }
+    }
+@media only screen  and (max-width:784px){
+
+        .Story{
+  
+             margin-left: 40px;
+  
+        }
+      } 
+@media only screen  and (max-width:742px){
+
+        .Story{
+  
+             margin-left: 25px;
+             
+        }
+      } 
+ @media only screen  and (max-width:726px){
+
+        .Story{
+  
+             margin-left: 10px;
+  
+        }
+      }
+@media only screen  and (max-width:710px){
+
+        .Story{
+  
+             margin-left: 0px;
+             margin-top:70px;
+             
+        }
+      } 
+@media only screen  and (max-width:688px){
+
+        .Story{
+  
+             margin-left: 0px;
+             margin-top:70px;
+             width:42;
+           
+        }
+      }                          
+.button{
+
+width: 30px;
+height: 30px;
+border: 1px white solid;
+background-color:whitesmoke;
+border-radius: 50%;
+margin-top: 45px;
+cursor: pointer;
+outline: none;
+
+
+}
+
+
+
+
+

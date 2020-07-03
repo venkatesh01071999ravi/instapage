@@ -1,0 +1,44 @@
+.input{
+
+   float:left;
+   padding-top: 23px;
+   padding-left: 250px;;
+   
+}
+
+input{
+
+    width: 190px;
+    height: 22px;
+    background-color: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+    
+
+} 
+
+
+  @media only screen and (max-width: 950px) {
+   .input{
+
+       float:left;
+       padding-top: 23px;
+       padding-left: 100px;
+       
+    }
+   
+   
+ } 
+ @media only screen and (max-width: 650px) {
+   .input{
+
+       float:left;
+       padding-top: 23px;
+       padding-left: 10px;
+       
+    }
+   
+   
+ }            

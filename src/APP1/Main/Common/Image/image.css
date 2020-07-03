@@ -1,0 +1,51 @@
+.outer{
+
+    float: left;
+    margin-left: 20px;
+    margin-top: 28px;
+    width:60px;
+    height: 60px;
+    border: 3px purple solid;
+    border-radius: 50%;
+    
+}
+
+.inner{
+
+    width: 52px;
+    height:52px;
+    border: 1px gray solid;
+    margin-left: 3px;
+    margin-top: 3px;
+    border-radius: 50%;
+}
+
+.name{
+
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    color: black;
+
+}
+
+.ref{
+
+  text-decoration: none;
+  
+
+}
+
+.story-image{
+width:50px;
+height:52px;
+margin-left:1px;
+border-radius:50%;
+}
+
+.story-name{
+
+font-size: 13px;
+
+}
+

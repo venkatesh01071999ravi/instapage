@@ -1,0 +1,49 @@
+.like{
+
+height:6%;
+background-color: white;
+width: 100%;
+
+
+
+}
+
+.button2{
+
+background:none;
+border: none;
+cursor: pointer;
+font-size: 30px;
+margin-top: 20px;
+margin-left: 12px;
+float: left;
+outline: none;
+}
+.share{
+  
+     width: 50px;
+     margin-top: -10px;
+     margin-left: -8px;
+
+}
+.save{
+
+width: 40px;
+margin-right: 20px;
+margin-top: 10px;;
+
+
+}
+.button3{
+  
+    float: right;
+    background:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+
+

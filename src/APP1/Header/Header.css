@@ -1,0 +1,11 @@
+.Header{
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    background-color:white;
+    margin: 0 auto;
+    border-bottom: 1px whitesmoke solid;
+}
+
+
+
