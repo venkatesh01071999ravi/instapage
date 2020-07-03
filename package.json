@@ -1,5 +1,4 @@
 {
-  "homepage": "https://venkatesh01071999.github.io/instapage/",
   "name": "instagram",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +14,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d buildg",
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

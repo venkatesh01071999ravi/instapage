@@ -4,7 +4,7 @@ import Main from "./Main/Main"
 import SideBar from "./SideBar/SideBar"
 
 
-function App1(){
+function MainPage(){
 
       return(
      
@@ -24,4 +24,4 @@ function App1(){
 
 }
 
-export default App1
+export default MainPage

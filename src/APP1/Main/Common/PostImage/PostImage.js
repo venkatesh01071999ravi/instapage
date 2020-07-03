@@ -1,12 +1,12 @@
 import React from "react"
 import image from "../img2.JPG"
-
+import "./postimage.css"
 
 function PostImage(){
 
        return(
 
-               <img style={{width:"100%",height:"55%"}} src={image}></img>  
+               <img className="post-image" src={image}></img>  
 
 
        )
