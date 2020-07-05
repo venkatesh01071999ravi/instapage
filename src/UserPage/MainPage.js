@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "./Header/Header"
-import Main from "./Main/Main"
-import SideBar from "./SideBar/SideBar"
+import Header from "./APP1/Header/Header"
+import Main from "./APP1/Main/Main"
+import SideBar from "./APP1/SideBar/SideBar"
 
 
 function MainPage(){

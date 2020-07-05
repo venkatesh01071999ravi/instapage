@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MainPage from "./APP1/MainPage"
+import MyProject from "./Myproject"
 import "./index.css"
 
-ReactDOM.render(<MainPage />,document.getElementById("root"))
+ReactDOM.render(<MyProject />,document.getElementById("root"))

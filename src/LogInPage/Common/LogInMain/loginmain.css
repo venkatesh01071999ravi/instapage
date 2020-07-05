@@ -1,0 +1,317 @@
+
+.flex-container{
+
+    width: 430px;
+    height: 430px;
+    background-color: white;
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+
+.logo-font{
+
+   text-align: center;
+   font-size: 30px;
+   padding-top:30px;
+
+}
+.form-login{
+
+  margin-top: 60px;
+  padding: 0  60px;
+
+
+}
+
+.form-login input{
+
+  text-align: start;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 15px;
+
+}
+.form-login button{
+
+  width: 317px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: mediumblue;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-hr{
+
+  width: 130px;
+  float: left;
+  margin-left: 50px;
+  outline: none;
+ 
+}
+.login-hr-right{
+
+  width: 130px;
+  float: right;
+  margin-right: 40px;
+  outline: none;
+ 
+}
+
+.or{
+  
+   margin-top: 27px;
+   float: left;
+   width:100%;
+
+}
+
+.text-or{
+
+  margin-left: 25px;
+  font-size: 15px;
+
+}
+
+.signup-column{
+  
+  margin-top: 70px;
+  margin-left: 120px;
+
+
+}
+
+.forgot{
+
+  text-decoration: none;
+  color: blue;
+  margin-left: 38px;
+
+}
+
+.SignUp {
+
+  text-decoration: none;
+  color: blue;
+  
+}
+
+
+@media only screen and (max-width:1176px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 430px;
+      margin-left: 420px;
+      margin-top: 50px;
+
+}
+
+}
+
+@media only screen and (max-width:1126px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left: 420px;
+      margin-top: 50px;
+
+}
+
+
+}
+
+@media only screen and (max-width:1046px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left: 370px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:988px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left: 320px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:900px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left: 280px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:838px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left: 200px;
+      margin-top: 50px;
+
+}
+
+
+}
+
+@media only screen and (max-width:728px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left: 120px;
+      margin-top: 50px;
+
+}
+
+
+}
+
+@media only screen and (max-width:628px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left: 70px;
+      margin-top: 50px;
+
+}
+
+
+}
+
+
+@media only screen and (max-width:556px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left:30 px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:536px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left:27px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:486px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left:20px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:464px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left:12px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:448px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left:6px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:438px){
+
+  .flex-container{
+
+      width: 430px;
+      height: 400px;
+      margin-left:0px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:416px){
+
+  .flex-container{
+
+      width: 410px;
+      height: 400px;
+      margin-left:0px;
+      margin-top: 50px;
+
+}
+
+
+}
+@media only screen and (max-width:400px){
+
+  .flex-container{
+
+      width: 400px;
+      height: 400px;
+      margin-left:0px;
+      margin-top: 50px;
+
+}
+
+
+}
