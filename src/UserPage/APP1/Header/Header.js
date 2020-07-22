@@ -6,6 +6,7 @@ import Home from "./Common/Home/Home"
 import Message from "./Common/Message/Message"
 import Nav from "./Common/Nav/Nav"
 import Photo from "./Common/Photo/Photo"
+import {withRouter} from "react-router-dom"
 function Header(){
 
       return(
@@ -23,4 +24,4 @@ function Header(){
 
 }
 
-export default Header
+export default withRouter(Header)

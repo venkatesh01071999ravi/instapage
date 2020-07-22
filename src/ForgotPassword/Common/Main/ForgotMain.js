@@ -1,9 +1,73 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import {useState} from "react"
+import {Link,withRouter} from "react-router-dom"
+import axios from "axios"
 import "./forgotmain.css"
 
 
-function ForgotMain(){
+function ForgotMain(props){
+
+        
+        const[email,changeEmail] = useState("")
+        const [server,changeServer] = useState(false)
+        const [invalid,changeInvalid] = useState(false)
+        const [success,changeSuccess] = useState(false)
+
+        const change = (f)=>{
+
+            changeEmail(f.target.value)
+            
+        }
+
+        const submit = (e)=>{
+
+            changeSuccess(false)
+            changeServer(false)
+            changeInvalid(false)
+            e.preventDefault()
+            axios.post("http://localhost:5000/forgotPassword",{
+
+                email:email
+
+            })
+            .then(res =>{
+
+                if(res){
+
+                    changeSuccess(true)
+                    setTimeout(()=>{
+
+                        props.prop(true)
+                        props.history.push(`/PasswordChange/${email}`)
+
+                    },3000)
+                }
+
+            })
+            .catch(err =>{
+
+                
+                if(err.response.status === 400){
+
+                    changeInvalid(true)
+                    setTimeout(()=>{
+
+                        props.prop(true)
+
+                    },3000)
+
+
+                }
+                else if(err.response.status === 500){
+
+                    changeServer(true)
+
+                }
+
+
+            })
+
+        }
 
         return(
                     
@@ -20,9 +84,15 @@ function ForgotMain(){
                                 <div className="form">
                                     <br></br>
                                     <h2>Trouble Logging in?</h2>
-                                    <span className="text">Enter your username or email</span>
-                                    <form className="forgot-form">
-                                        <input type="email" placeholder="Please enter your email"></input>
+                                    <span className="text">Enter your email</span>
+                                    {server?<div className="error">There was an server Error!please try again</div>
+                                     :invalid?<div className="error">That email id was not found!Please Try again</div>
+                                     :success?<div className="success">Redirecting to password change</div>
+                                     :<></>
+                                    }
+                    
+                                    <form className="forgot-form" onSubmit={submit}>
+                                        <input type="email" required placeholder="Please enter your email" onChange={change}></input>
                                         <br></br>
                                         <br></br>
                                         <button type="submit">Change</button>
@@ -58,4 +128,4 @@ function ForgotMain(){
      
     }
     
-export default ForgotMain    
+export default withRouter(ForgotMain)    

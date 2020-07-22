@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./Common/Header/Header"
-import MainLogIn from "./Common/Main/MainLogIn"
+import MainSignUp from "./Common/Main/MainSignUp"
 function SignUp(){
 
       return(
@@ -8,7 +8,7 @@ function SignUp(){
        <div>
 
           <Header />
-          <MainLogIn />  
+          <MainSignUp />  
                                      
        </div>
 

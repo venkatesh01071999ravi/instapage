@@ -1,7 +1,14 @@
 import React from "react"
 import LogInMain from "./Common/LogInMain/LogInMain"
-function LogIn(){
+import axios from "axios"
+function LogIn(props){
 
+      if(localStorage.getItem('userToken')!=null){
+
+            props.history.push('/user')           
+
+
+      }
       return(
          
             

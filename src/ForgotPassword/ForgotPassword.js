@@ -1,14 +1,16 @@
 import React from "react"
 import ForgotHeader from "./Common/Header/ForgotHeader"
 import ForgotMain from "./Common/Main/ForgotMain"
-function ForgotPassword(){
+function ForgotPassword(props){
 
+      console.log(props)
       return(
 
          <div>
               
+
             <ForgotHeader />
-            <ForgotMain />   
+            <ForgotMain prop = {props.prop} />   
                
          </div>
 
